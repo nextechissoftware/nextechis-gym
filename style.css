@@ -1,0 +1,189 @@
+/* General Styles */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+nav {
+    background-color: #333;
+    color: white;
+    padding: 10px 0;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+nav .logo h2 {
+    margin-left: 20px;
+    font-size: 24px;
+}
+
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 20px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.3s;
+}
+
+nav ul li a:hover {
+    color: #f39c12;
+}
+
+section {
+    padding: 40px 20px;
+}
+
+#about {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+
+/* Gallery Styles */
+
+#gallery {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.slideshow-container {
+    position: relative;
+    max-width: 100%;
+    margin: auto;
+}
+
+.mySlides {
+    display: none;
+}
+
+.slide-image {
+    width: 100%;
+    /* Adjust this value to make images as large as you want */
+    height: auto;
+    border-radius: 8px;
+}
+
+
+/* Next and previous buttons */
+
+.prev,
+.next {
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    background-color: rgba(0, 0, 0, 0.6);
+    border: none;
+    cursor: pointer;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+    transition: 0.3s;
+}
+
+.next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+}
+
+.prev:hover,
+.next:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+    .slide-image {
+        width: 90%;
+        /* Make images responsive on smaller screens */
+        height: auto;
+    }
+}
+
+#courses {
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+#courses ul {
+    list-style-type: none;
+}
+
+#courses li {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+#contact {
+    background-color: #fff;
+    text-align: center;
+}
+
+#contact form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+#contact input,
+#contact textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+#contact button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+#contact button:hover {
+    background-color: #f39c12;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+
+@media screen and (max-width: 768px) {
+    nav ul {
+        flex-direction: column;
+        margin: 0;
+    }
+    nav ul li {
+        margin: 10px 0;
+    }
+    .gallery-images {
+        flex-direction: column;
+    }
+}
