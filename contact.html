@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - GymName</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Google Fonts for custom fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Oswald:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome for icons -->
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+    <!-- External CSS -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation Bar (common for all pages) -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">GymName</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="classes.html">Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="membership.html">Membership</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" href="contact.html">Contact</a> <!-- Current Page -->
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Contact Us Hero Section -->
+    <section class="contact-hero py-5 text-center text-white" style="background-image: url('pics/bgpic.jpg'); background-size: cover; background-position: center;">
+        <div class="container">
+            <h2 class="display-3 mb-4" style="font-family: 'Oswald', sans-serif;">Contact Us</h2>
+            <p class="lead mb-5" style="font-family: 'Poppins', sans-serif;">We'd love to hear from you! Whether you have questions, need help, or just want to talk about fitness, reach out to us.</p>
+        </div>
+    </section>
+
+    <!-- Contact Form Section -->
+    <section class="contact-form py-5">
+        <div class="container">
+            <h3 class="text-center mb-5" style="font-family: 'Oswald', sans-serif;">Get In Touch With Us</h3>
+            <form>
+                <div class="row">
+                    <!-- Name -->
+                    <div class="col-md-6 mb-4">
+                        <input type="text" class="form-control" placeholder="Your Name" required>
+                    </div>
+
+                    <!-- Email -->
+                    <div class="col-md-6 mb-4">
+                        <input type="email" class="form-control" placeholder="Your Email" required>
+                    </div>
+
+                    <!-- Message -->
+                    <div class="col-12 mb-4">
+                        <textarea class="form-control" rows="4" placeholder="Your Message" required></textarea>
+                    </div>
+
+                    <!-- Submit Button -->
+                    <div class="col-12 text-center">
+                        <button type="submit" class="btn btn-primary btn-lg">Send Message</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer Section with Gym Address and Social Media Links -->
+    <footer class="bg-dark text-white py-4">
+        <div class="container text-center">
+            <h4 class="mb-4" style="font-family: 'Oswald', sans-serif;">GymName</h4>
+
+            <!-- Address Information -->
+            <p><i class="fas fa-map-marker-alt"></i> 123 Gym St, Fit City, XYZ 12345</p>
+            <p><i class="fas fa-phone-alt"></i> Phone: +1 (234) 567-890</p>
+            <p><i class="fas fa-envelope"></i> Email: contact

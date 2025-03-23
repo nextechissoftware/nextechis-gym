@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GymName - Classes</title>
+    <!-- Link to External CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+</head>
+
+<body>
+
+   <!-- Navigation Bar (common for all pages) -->
+   <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#">GymName</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="classes.html">Classes</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="membership.html">Membership</a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="contact.html">Contact</a> <!-- Current Page -->
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+<!-- Classes Section -->
+<section class="classes-section py-5 text-center text-white" style="background-image: url('pics/classes.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+    <div class="container">
+        <h2 class="display-4 mb-4" style="font-family: 'Oswald', sans-serif;">Our Fitness Classes</h2>
+        <p class="lead mb-5">Join our top-rated fitness classes and achieve your fitness goals with the best trainers!</p>
+    </div>
+</section>
+
+<!-- Classes Cards Section -->
+<section class="classes-cards py-5">
+    <div class="container">
+        <div class="row">
+            <!-- Class 1 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card class-card">
+                    <img src="pics/zumba.png" class="card-img-top" alt="Class 1">
+                    <div class="card-body">
+                        <h5 class="card-title">Yoga Class</h5>
+                        <p class="card-text">Relax, stretch, and enhance your flexibility with our Yoga classes. Suitable for all levels.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Class 2 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card class-card">
+                    <img src="pics/yoga.jpg" class="card-img-top" alt="Class 2">
+                    <div class="card-body">
+                        <h5 class="card-title">HIIT Workout</h5>
+                        <p class="card-text">Boost your endurance and strength with High-Intensity Interval Training. Quick and effective workouts!</p>
+                    </div>
+                </div>
+            </div>
+            <!-- Class 3 -->
+            <div class="col-lg-4 col-md-6 mb-4">
+                <div class="card class-card">
+                    <img src="pics/pilates.jpeg" class="card-img-top" alt="Class 3">
+                    <div class="card-body">
+                        <h5 class="card-title">Strength Training</h5>
+                        <p class="card-text">Build muscle and strength with guided weight training sessions. All levels welcome!</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>

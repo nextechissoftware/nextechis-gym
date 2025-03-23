@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Membership - GymName</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Google Fonts for custom fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@500;600&family=Oswald:wght@700&display=swap" rel="stylesheet">
+    <!-- External CSS (for additional custom styling) -->
+    <link href="styles.css" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Navigation Bar (same as before) -->
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#">GymName</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="classes.html">Classes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="membership.html">Membership</a> <!-- Current Page -->
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Membership Section -->
+    <section class="membership-section py-5 text-center text-white" style="background-image: url('pics/membership.jpg'); background-size: cover; background-position: center; background-attachment: fixed;">
+        <div class="container">
+            <h2 class="display-4 mb-4" style="font-family: 'Oswald', sans-serif;">Choose Your Membership Plan</h2>
+            <p class="lead mb-5">Get fit with our flexible and affordable gym memberships. Choose the plan that suits you best!</p>
+        </div>
+    </section>
+
+    <!-- Membership Plans -->
+    <section class="membership-plans py-5">
+        <div class="container">
+            <div class="row">
+                <!-- Plan 1 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-lg border-primary rounded">
+                        <div class="card-header bg-primary text-white">
+                            <h4>Basic Plan</h4>
+                        </div>
+                        <div class="card-body text-center">
+                            <h3 class="display-4 mb-3">$19.99</h3>
+                            <p class="lead mb-4">Per Month</p>
+                            <ul class="list-unstyled">
+                                <li>Access to all gym equipment</li>
+                                <li>Free Wi-Fi</li>
+                                <li>Access to group classes</li>
+                            </ul>
+                            <button class="btn btn-primary mt-4">Join Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Plan 2 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-lg border-warning rounded">
+                        <div class="card-header bg-warning text-white">
+                            <h4>Standard Plan</h4>
+                        </div>
+                        <div class="card-body text-center">
+                            <h3 class="display-4 mb-3">$29.99</h3>
+                            <p class="lead mb-4">Per Month</p>
+                            <ul class="list-unstyled">
+                                <li>All features of Basic Plan</li>
+                                <li>Free personal training session</li>
+                                <li>Priority booking for classes</li>
+                            </ul>
+                            <button class="btn btn-warning mt-4">Join Now</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Plan 3 -->
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <div class="card shadow-lg border-success rounded">
+                        <div class="card-header bg-success text-white">
+                            <h4>Premium Plan</h4>
+                        </div>
+                        <div class="card-body text-center">
+                            <h3 class="display-4 mb-3">$49.99</h3>
+                            <p class="lead mb-4">Per Month</p>
+                            <ul class="list-unstyled">
+                                <li>All features of Standard Plan</li>
+                                <li>Unlimited personal training</li>
+                                <li>Free massage therapy sessions</li>
+                            </ul>
+                            <button class="btn btn-success mt-4">Join Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section text-center py-5" style="background-color: #333; color: white;">
+        <div class="container">
+            <h3 class="display-4 mb-4">Ready to Get Started?</h3>
+            <p class="lead mb-5">No matter your fitness goals, we have the perfect membership for you. Join now and start your journey towards a healthier, stronger you!</p>
+            <a href="contact.html" class="btn btn-light btn-lg">Contact Us Today</a>
+        </div>
+    </section>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
